@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://staceysoans.ca/sitemap.xml
+Sitemap: https://staceysoans.org/sitemap.xml
