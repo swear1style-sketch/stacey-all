@@ -56,9 +56,24 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Locked Copyright */}
+        {/* Bottom Bar: Copyright & Attribution */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs sm:text-sm text-stone-600">
-          <p>© 2026 Stacey Soans. All Rights Reserved.</p>
+          <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2 text-center sm:text-left">
+            <p>© 2026 Stacey Soans. All Rights Reserved.</p>
+            <span className="hidden sm:inline text-stone-400">·</span>
+            <p>
+              Engineered by{" "}
+              <a
+                href="https://vectoraslab.com"
+                target="_blank"
+                rel="noopener"
+                className="font-medium text-stone-850 hover:text-stone-950 underline underline-offset-2 transition-colors"
+                title="Vectoras Lab — Digital Engineering & Web Architecture"
+              >
+                Vectoras Lab
+              </a>
+            </p>
+          </div>
           <div className="flex items-center gap-6">
             <Link to="/contact" className="hover:text-stone-950 transition-colors">
               Contact
