@@ -56,23 +56,23 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Bottom Bar: Copyright & Attribution */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs sm:text-sm text-stone-600">
-          <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2 text-center sm:text-left">
-            <p>© 2026 Stacey Soans. All Rights Reserved.</p>
-            <span className="hidden sm:inline text-stone-400">·</span>
-            <p>
+        {/* Locked Copyright & Engineering Credit */}
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs sm:text-sm text-stone-600">
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-3 text-center sm:text-left">
+            <span>© 2026 Stacey Soans. All Rights Reserved.</span>
+            <span className="hidden sm:inline text-stone-400">|</span>
+            <span>
               Engineered by{" "}
               <a
-                href="https://vectoraslab.com"
+                href="https://www.vectoraslab.com"
                 target="_blank"
                 rel="noopener"
-                className="font-medium text-stone-850 hover:text-stone-950 underline underline-offset-2 transition-colors"
-                title="Vectoras Lab — Digital Engineering & Web Architecture"
+                title="Vectoras Lab — Digital Authority & Web Engineering"
+                className="text-stone-800 hover:text-stone-950 font-medium underline underline-offset-2 decoration-stone-400 hover:decoration-stone-900 transition-colors"
               >
                 Vectoras Lab
               </a>
-            </p>
+            </span>
           </div>
           <div className="flex items-center gap-6">
             <Link to="/contact" className="hover:text-stone-950 transition-colors">

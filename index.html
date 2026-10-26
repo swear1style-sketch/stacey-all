@@ -10,18 +10,36 @@
     <meta name="theme-color" content="#1a1c22" />
     <link rel="icon" href="/favicon.png" type="image/png" />
 
-    <!-- Structured Data: WebSite & Creator Entity Attribution -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Stacey Soans Digital Encyclopedia & Media Archive",
-      "url": "https://staceysoans.org/",
-      "creator": {
-        "@type": "Organization",
-        "name": "Vectoras Lab",
-        "url": "https://vectoraslab.com"
-      }
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://staceysoans.org/#website",
+          "url": "https://staceysoans.org/",
+          "name": "Stacey Soans Digital Encyclopedia & Media Archive",
+          "description": "A comprehensive digital resource on Stacey Soans, her professional work across Human Resources, golf, publishing and modelling.",
+          "inLanguage": "en-CA",
+          "publisher": {
+            "@type": "Person",
+            "name": "Stacey Soans",
+            "jobTitle": "Human Resources Business Partner",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Toronto",
+              "addressRegion": "Ontario",
+              "addressCountry": "Canada"
+            }
+          },
+          "creator": {
+            "@type": "Organization",
+            "@id": "https://www.vectoraslab.com/#organization",
+            "name": "Vectoras Lab",
+            "url": "https://www.vectoraslab.com"
+          }
+        }
+      ]
     }
     </script>
   </head>
